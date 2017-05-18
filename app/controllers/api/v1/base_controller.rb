@@ -1,4 +1,4 @@
-class Api::V1::BaseController < ApplicationController
+class Api::V1::BaseController < ActionController::Base
   # # include ActionController::RespondWith
 
   # protect_from_forgery with: :null_session
